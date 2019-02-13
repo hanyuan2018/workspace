@@ -1,0 +1,37 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="copyCommon">
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<!-- 
+width - viewport的宽度 height - viewport的高度
+initial-scale - 初始的缩放比例
+minimum-scale - 允许用户缩放到的最小比例
+maximum-scale - 允许用户缩放到的最大比例
+user-scalable - 用户是否可以手动缩放
+ -->
+<!-- <link rel="shortcut icon" th:href="@{/images/kfzzx.ico}" type="image/x-icon" /> -->
+
+<link rel="stylesheet" type="text/css" th:href="@{/plugins/layui/css/layui.css}" media="all"/>
+<link rel="stylesheet" type="text/css" th:href="@{/plugins/layui/css/layui.mobile.css}" />
+<link rel="stylesheet" type="text/css" th:href="@{/plugins/bootstrap/css/bootstrap.min.css}" />
+<!-- <link rel="stylesheet" type="text/css" th:href="@{/plugins/bootstrap-table/bootstrap-table.min.css}" /> -->
+<link rel="stylesheet" type="text/css" th:href="@{/plugins/bootstrap-table/bootstrap-table.css}"/>
+
+<!-- base start 重要部分不可删改-->
+
+<script type="text/javascript" th:src="@{/plugins/jquery/jquery-3.3.1.min.js}"></script>
+<script type="text/javascript" th:src="@{/plugins/bootstrap/js/bootstrap.min.js}" ></script>
+<!-- <script type="text/javascript" th:src="@{/plugins/bootstrap-table/bootstrap-table.min.js}" ></script> -->
+<script type="text/javascript" th:src="@{/plugins/bootstrap-table/bootstrap-table-1.13.4.js}" ></script>
+<script type="text/javascript" th:src="@{/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js}" ></script>
+<script type="text/javascript" th:src="@{/plugins/layer/layer.js}"></script>
+<script type="text/javascript" th:src="@{/plugins/layui/layui.js}"></script>
+
+<script type="text/javascript" th:src="@{/js/common/base.js}"></script>
+<script type="text/javascript" th:src="@{/plugins/jquery/jquery.serializejson.min.js}"></script>
+</head>
+</html>
